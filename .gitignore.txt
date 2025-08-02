@@ -1,22 +1,39 @@
-# Byte-compiled / virtual environment files
+# Python bytecode
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.so
-*.log
 
 # Virtual environment
 venv/
 
-# Chroma storage
-chroma_storage/
+# Environment variables
+.env
 
-# Model cache
+# IDEs and editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# ChromaDB vector store
+chroma_storage/
+*.duckdb
+*.parquet
+
+# Ollama models or any local LLM cache (if used)
 *.bin
 *.pt
 *.onnx
+*.gguf
+*.ggml
 
-# IDEs
-.vscode/
-.idea/
+# Output logs or large text dumps
+*.log
+*.jsonl
+
+# PDF or data uploads (if needed)
+data/
+!data/README.md
