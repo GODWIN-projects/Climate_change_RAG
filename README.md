@@ -32,8 +32,8 @@ A local, privacy-friendly Retrieval-Augmented Generation (RAG) chatbot powered b
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/rag-chatbot.git
-cd rag-chatbot
+git clone https://github.com/GODWIN-projects/Climate_change_RAG.git
+cd Climate_change_RAG
 ```
 ###2. Create a virtual environment
 
