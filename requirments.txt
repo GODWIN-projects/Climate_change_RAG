@@ -1,0 +1,8 @@
+langchain>=0.0.400
+chromadb
+sentence-transformers
+fastapi
+uvicorn[standard]
+pdfplumber
+tqdm
+requests

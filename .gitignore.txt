@@ -1,0 +1,22 @@
+# Byte-compiled / virtual environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+
+# Virtual environment
+venv/
+
+# Chroma storage
+chroma_storage/
+
+# Model cache
+*.bin
+*.pt
+*.onnx
+
+# IDEs
+.vscode/
+.idea/
