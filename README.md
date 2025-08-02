@@ -35,22 +35,20 @@ A local, privacy-friendly Retrieval-Augmented Generation (RAG) chatbot powered b
 git clone https://github.com/GODWIN-projects/Climate_change_RAG.git
 cd Climate_change_RAG
 ```
-###2. Create a virtual environment
+### 2. Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
 Activate it:
-
-    On Windows:
-
+On Windows:
 ```bash
 venv\Scripts\activate
 ```
 On macOS/Linux:
 ```bash
-    source venv/bin/activate
+source venv/bin/activate
 ```
 ###3. Install dependencies
 ```bash
@@ -64,16 +62,16 @@ ollama run mistral
 ```
 You can replace mistral with any supported model like gemma, llama3, etc.
 
-##🔧 Usage
-###1. Add your documents
+## 🔧 Usage
+### 1. Add your documents
 
 Place your .pdf, .txt, or .md files inside the data/ folder.
-###2. Ingest documents
+### 2. Ingest documents
 ```bash
 python ingest.py
 ```
 This will chunk, embed, and store the content into a Chroma vector DB.
-###3. Ask questions
+### 3. Ask questions
 ```bash
 python test_query.py
 ```
